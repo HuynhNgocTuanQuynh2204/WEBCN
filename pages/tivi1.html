@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/giohang.css">
-    <link rel="stylesheet" href="../css/hinhthuc.css">
+    <link rel="stylesheet" href="../css/login.css">
     <title>WEB CÔNG NGHỆ </title>
 </head>
 <body>
@@ -25,80 +24,32 @@
                     </div>
                 </li>
                 <li><a href="giohang.html"><span id="cart-count"  style="color: blue;"></span> <i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a></li>
-                <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i> Liên hệ</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i>Liên hệ</a></li>
                 <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
             </ul>
             <ul>
-                <li class="search-box">
-                    <input type="text" id="search-input" placeholder="Tìm kiếm...">
-                    <button id="search-button">Tìm</button>
-                </li>
-            </ul>
+              <li class="search-box">
+                  <input type="text" id="search-input" placeholder="Tìm kiếm...">
+                  <button id="search-button">Tìm</button>
+              </li>
+          </ul>
         </div>
         <div class="main">
-            <div class="sidebar">
-                <h1 style="text-align: center;">Danh mục sản phẩm</h1>
+          <div class="sidebar">
+            <h1 style="text-align: center;">Danh mục sản phẩm</h1>
+            <ul class="list_sidebar">
                 <ul class="list_sidebar">
                     <li><a href="maytinh.html">Máy tính</a></li>
                     <li><a href="dienthoai.html">Điện thoại</a></li>
                     <li><a href="tivi.html">Tivi</a></li>
                     <li><a href="tainghe.html">Tai nghe</a></li>
                 </ul>
-            </div>
+            </ul>
+        </div>
             <div class="maincontent">
-                
-                <form id="myForm" autocomplete="off">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">Họ và tên</label>
-                                    <input type="text" id="name" placeholder="...." class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone</label>
-                                    <input type="text" id="phone" placeholder="...." class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="address">Địa chỉ nhận hàng</label>
-                                    <input type="email" id="address" placeholder="...." class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="note">Ghi chú</label>
-                                    <input type="text" id="note" placeholder="...." class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="shipping">Đơn vị vận chuyển</label>
-                                    <select id="shipping" class="form-control">
-                                        <option value="giao_hang_nhanh">Giao hàng nhanh</option>
-                                        <option value="giao_hang_tiet_kiem">Giao hàng tiết kiệm</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" id="submitBtn" class="btn btn-primary">Thanh toán</button>
-                    </div>
-                </form>
-                <h1>Giỏ hàng</h1>
-
-                <div class="table-container">
-                    <table id="cart-table" border="1">
-                        <thead>
-                            <tr>
-                                <th>Sản phẩm</th>
-                                <th>Giá</th>
-                                <th>Số lượng</th>
-                                <th>Thao tác</th>
-                            </tr>
-                        </thead>
-                        <tbody id="cart-items"></tbody>
-                    </table>
-                </div>
+             
             </div>
         </div>
-        
         <div class="clear"></div>
         <div class="footer">
           <div class="footer">
@@ -138,7 +89,7 @@
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#" ><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -149,5 +100,4 @@
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="../js/giohang.js"></script>
 <script src="../js/index.js"></script>

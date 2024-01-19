@@ -111,7 +111,6 @@ width: 100%;
 }
 
 .sidebar{
-border: 1px solid #000066;
 height: 390px;
 width: 20%;  
 margin-top: 5px ;
@@ -145,7 +144,6 @@ ul.list_sidebar li a {
 }
 
 .maincontent{
-border: 1px solid #ff0000;
 height: auto;
 width: 79%;  
 margin-top: 5px ;
@@ -343,12 +341,12 @@ a.control_prev, a.control_next {
   padding: 4% 3%;
   width: auto;
   height: auto;
-  background: red;
+  background-color: rgba(255, 255, 255, 0);
   color: black;
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
-  opacity: 0.8;
+  opacity: 0.5;
   cursor: pointer;
 }
 

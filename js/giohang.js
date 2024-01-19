@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             cartItemsContainer.innerHTML = '';
 
             if (cartItems.length === 0) {
-                cartItemsContainer.innerHTML = '<p style="text-align: center;">Giỏ hàng trống</p>';
+                cartItemsContainer.innerHTML = '<p style="text-align: center;color:red;">Giỏ hàng trống</p>';
             } else {
                 var cartTable = document.getElementById('cart-table');
                 var tbody = document.createElement('tbody');
