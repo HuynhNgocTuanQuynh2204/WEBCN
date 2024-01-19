@@ -111,7 +111,8 @@ width: 100%;
 }
 
 .sidebar{
-height: 390px;
+background:rgb(213, 213, 213);
+height: auto;
 width: 20%;  
 margin-top: 5px ;
 margin-left: 5px ;
@@ -138,9 +139,13 @@ ul.list_sidebar li:hover {
 
 ul.list_sidebar li a {
  text-decoration: none;
- text-align:left;
- color:#3333ff;
+ margin-left: 70px;
+ text-align: left;
+ color:#000;
  display: block;
+ font-weight: bold;
+ font-size: 18px;
+ text-transform: uppercase;
 }
 
 .maincontent{
